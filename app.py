@@ -27,7 +27,7 @@ st.subheader("Messages from AJO Adobe")
 
 # Button to refresh messages
 if st.button("Refresh"):
-    st.experimental_rerun()
+    st.rerun()
 
 # Display received messages
 st.write("Received Messages:")
